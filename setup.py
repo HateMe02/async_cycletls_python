@@ -1,13 +1,13 @@
 import pathlib
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 README = pathlib.Path(__file__).parent.joinpath("README.md").read_text(encoding="utf-8")
 
 setup(
     name='aiocycletls',
-    version='1.0.0',
-    packages=["aiocycletls", "builds"],
+    version='1.0.3',
+    packages=find_packages(),
     license='none',
     description='A python package for spoofing TLS',
     long_description_content_type="text/markdown",
