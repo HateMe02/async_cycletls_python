@@ -22,3 +22,13 @@ async def main() -> None:
     )
     print(response.jsonable_body()) # You see your JA3 <3
 ```
+
+__High Level Example__
+
+```python
+import aiocycletls
+
+async def main() -> None:
+    client = aiocycletls.CycleTLSClient(browsers=[aiocycletls.Chrome()])
+    print(await client.get(url="ttps://tools.scrapfly.io/api/fp/ja3", params={"extended": "1"}))
+```
