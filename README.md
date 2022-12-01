@@ -4,7 +4,7 @@ __CycleTLS Wrapper - convenient, fast, no bans__
 ```shell
 pip3 install aiocycletls
 ```
-__After install you must get build from my repository  or create own for your system. (repository crypto-tls-server)__
+__After install you must get build from my repository  or create own for your system. (repository CycleTLS)__
 
 __This project working with proxy on low-level of Go network__
 
